@@ -9,7 +9,7 @@ import { EmailComponent } from './email/email.component';
 export const router: Route[] = [
 
         
-    { path: 'home', component: HomeComponent },
+    //{ path: 'home', component: HomeComponent },
     { path: '', redirectTo: 'login', pathMatch: 'full' },
     { path: 'login', component: LoginComponent },
     { path: 'signup', component: SignupComponent },

@@ -19,6 +19,9 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AuthService } from './auth.service';
 import { RegistrationComponent } from './registration/registration.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ItemsListComponent } from './items/items-list/items-list.component';
+import { ItemDetailComponent } from './items/item-detail/item-detail.component';
+import { ItemFormComponent } from './items/item-form/item-form.component';
 
 
 @NgModule({
@@ -30,7 +33,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     EmailComponent,
     NavigationComponent,
     MembersComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    ItemsListComponent,
+    ItemDetailComponent,
+    ItemFormComponent
   ],
   imports: [
     BrowserModule,
